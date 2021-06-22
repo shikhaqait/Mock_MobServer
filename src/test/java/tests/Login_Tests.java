@@ -28,7 +28,7 @@ public class Login_Tests extends BaseTests {
 	
 	@Test(description="Verify User Can navigate to the Login Page from the Landing using myaccount login option")
 	public void Test1_Verify_Login_Page_Accessible_From_Landing() throws InterruptedException {
-		homePageKeywords.launchApplication("https://webui-qa.erpmaestro.com/login");//// base condition ()
+		homePageKeywords.launchApplication("https://google.com");//// base condition ()
 			//Assertions
 		//softly.assertThat(loginKeywords.getPageTitle()).isEqualTo("Account Login");
 		
