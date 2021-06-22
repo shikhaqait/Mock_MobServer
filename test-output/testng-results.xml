@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-22T06:23:19Z" name="Default suite" finished-at="2021-06-22T06:40:16Z" duration-ms="1017150">
+    <groups>
+    </groups>
+    <test started-at="2021-06-22T06:23:19Z" name="Default test" finished-at="2021-06-22T06:40:16Z" duration-ms="1017150">
+      <class name="tests.Login_Tests">
+        <test-method is-config="true" signature="startProxy()[pri:0, instance:tests.Login_Tests@14bee915]" started-at="2021-06-22T06:23:19Z" name="startProxy" finished-at="2021-06-22T06:23:21Z" duration-ms="2058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startProxy -->
+        <test-method is-config="true" signature="setUP()[pri:0, instance:tests.Login_Tests@14bee915]" started-at="2021-06-22T06:23:21Z" name="setUP" finished-at="2021-06-22T06:23:26Z" duration-ms="5459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method is-config="true" signature="methodName(java.lang.reflect.Method)[pri:0, instance:tests.Login_Tests@14bee915]" started-at="2021-06-22T06:23:26Z" name="methodName" finished-at="2021-06-22T06:23:26Z" duration-ms="29" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.Login_Tests.Test1_Verify_Login_Page_Accessible_From_Landing() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method signature="Test1_Verify_Login_Page_Accessible_From_Landing()[pri:0, instance:tests.Login_Tests@14bee915]" started-at="2021-06-22T06:23:26Z" name="Test1_Verify_Login_Page_Accessible_From_Landing" description="Verify User Can navigate to the Login Page from the Landing using myaccount login option" finished-at="2021-06-22T06:40:14Z" duration-ms="1007345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1_Verify_Login_Page_Accessible_From_Landing -->
+        <test-method is-config="true" signature="captureScreenShot(org.testng.ITestResult)[pri:0, instance:tests.Login_Tests@14bee915]" started-at="2021-06-22T06:40:14Z" name="captureScreenShot" finished-at="2021-06-22T06:40:14Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test1_Verify_Login_Page_Accessible_From_Landing status=SUCCESS method=Login_Tests.Test1_Verify_Login_Page_Accessible_From_Landing()[pri:0, instance:tests.Login_Tests@14bee915] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenShot -->
+        <test-method is-config="true" signature="setUpDown()[pri:0, instance:tests.Login_Tests@14bee915]" started-at="2021-06-22T06:40:14Z" name="setUpDown" finished-at="2021-06-22T06:40:14Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDown -->
+        <test-method is-config="true" signature="stopServer()[pri:0, instance:tests.Login_Tests@14bee915]" started-at="2021-06-22T06:40:14Z" name="stopServer" finished-at="2021-06-22T06:40:16Z" duration-ms="2222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopServer -->
+      </class> <!-- tests.Login_Tests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
